@@ -1121,4 +1121,57 @@ button:hover {
   letter-spacing: 0.16em;
   text-align: center;
   color: rgb(245, 243, 243);
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 746px;
+    display: block;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 690px) {
+  .head__part .head_container {
+    display: block;
+    width: 690px;
+    height: 9964px;
+    height: 626px;
+    align-items: center;
+  }
+  .delivery {
+    text-align: center;
+  }
+  .delivery h1 {
+    text-align: center;
+  }
+  .delivery p {
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+  }
+  .delivery__cervice img {
+    margin-left: 20px;
+  }
+  .products__container {
+    padding-top: 100px;
+    background-color: white;
+    box-shadow: none;
+    width: 680;
+    height: 534;
+    padding-bottom: 600px;
+  }
+  .products {
+    width: 680px;
+    margin-left: 1px;
+  }
+  .products .wrapp {
+    display: flex;
+  }
+  .products h6 {
+    width: 359px;
+    height: 21px;
+  }
+  .machines__block {
+    display: block;
+  }
 }/*# sourceMappingURL=stle.css.map */
