@@ -1,0 +1,1124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.head__part {
+  margin-top: 109px;
+}
+.head__part .head_container {
+  display: flex;
+  align-items: center;
+}
+
+.delivery h1 {
+  font-family: "Exo 2";
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 65px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+
+.delivery p {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 525px;
+  height: 66px;
+  color: rgb(107, 107, 108);
+}
+
+.delivery span {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+  border-bottom: 3px solid rgb(255, 206, 80);
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.delivery__cervice img {
+  width: 635px;
+  height: 505px;
+}
+
+.products__container {
+  width: 1240px;
+  height: 341px;
+  border-radius: 20px 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 67px;
+  display: flex;
+}
+
+.products {
+  margin-left: 80px;
+  border-right: 1px solid rgb(215, 215, 221);
+  margin-top: 60px;
+  padding-right: 105px;
+  margin-bottom: 56px;
+}
+.products a {
+  padding: 21px;
+  padding-top: 45px;
+  background-color: rgb(233, 233, 236);
+  border-radius: 50%;
+}
+
+.products h6 {
+  margin-top: 30px;
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+  margin-bottom: 16px;
+}
+
+.products p {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+}
+
+.nav-list__container {
+  margin-top: 67px;
+}
+
+.product img {
+  position: absolute;
+}
+
+.nav__titel .bacrount {
+  position: relative;
+  position: absolute;
+}
+
+.nav__titel h3 {
+  position: relative;
+  padding-top: 178px;
+  margin-left: 90px;
+  font-family: Exo 2;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  width: 362px;
+  height: 109px;
+}
+
+.grafic {
+  margin-top: 330px;
+  display: flex;
+  text-align: center;
+}
+.grafic .shopng {
+  display: flex;
+  width: 447px;
+  height: 80px;
+  margin-left: 66px;
+  margin-right: 80px;
+}
+.grafic .shopng a {
+  padding: 14px 18px 20px 18px;
+  background-color: rgb(233, 233, 236);
+  border-radius: 50%;
+}
+
+.text {
+  margin-left: 40px;
+}
+.text h4 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+  margin-bottom: 6px;
+}
+.text p {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+  width: 291px;
+  height: 41px;
+}
+
+.grafics {
+  margin-top: 62px;
+  display: flex;
+  text-align: center;
+}
+.grafics .shopng {
+  display: flex;
+  width: 447px;
+  height: 80px;
+  margin-left: 66px;
+  margin-right: 80px;
+}
+.grafics .shopng a {
+  padding: 16px 18px 18px 18px;
+  background-color: rgb(233, 233, 236);
+  border-radius: 50%;
+}
+
+.text {
+  margin-left: 40px;
+}
+.text h4 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+  margin-bottom: 6px;
+}
+.text p {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+  width: 291px;
+  height: 41px;
+}
+
+.work {
+  margin-top: 120px;
+}
+.work h2 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+  margin-bottom: 32px;
+}
+.work p {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+}
+
+.machines__block {
+  display: flex;
+  margin-top: 56px;
+  gap: 30px;
+}
+
+.machines__list {
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+  margin-bottom: 200px;
+  width: 393px;
+  height: 439px;
+  border-radius: 10px;
+}
+.machines__list h4 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  margin-top: 24px;
+  margin-left: 32px;
+  color: rgb(54, 55, 56);
+}
+.machines__list p {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 6px;
+  margin-left: 32px;
+  color: rgb(107, 107, 108);
+  margin-bottom: 32px;
+}
+.machines__list span {
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.6px;
+  text-align: left;
+  margin-left: 32px;
+  color: rgb(107, 107, 108);
+  border-bottom: 3px solid rgb(255, 206, 80);
+  cursor: pointer;
+  padding-bottom: 5px;
+  width: 92px;
+  height: 17px;
+}
+
+.main {
+  width: 1239px;
+  height: 917px;
+  background-color: rgb(11, 117, 114);
+  position: absolute;
+}
+.main h3 {
+  width: 477px;
+  height: 109px;
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding-top: 100px;
+  margin-left: 81px;
+}
+
+.texts {
+  position: relative;
+  width: 652px;
+  height: 747px;
+  background-color: rgb(255, 255, 255);
+  left: 521px;
+  top: 85px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(215, 215, 221);
+  margin-left: 41px;
+  padding-bottom: 32px;
+  margin-right: 40px;
+}
+.logo img {
+  margin-top: 28px;
+  margin-right: 194px;
+}
+.logo p {
+  font-family: "PT Sans";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16.5px;
+  text-align: left;
+  margin-top: 28px;
+  color: rgb(107, 107, 108);
+}
+
+.foto {
+  width: 588px;
+  height: 45px;
+  background-color: rgb(11, 117, 114);
+  margin-left: 32px;
+  margin-top: 32px;
+}
+.foto ul {
+  display: flex;
+  margin-right: 45px;
+  margin-left: 36px;
+  justify-content: space-between;
+}
+.foto li {
+  list-style: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  height: 37px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-right: 30px;
+  text-align: center;
+}
+.foto a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 8px;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+#fotos {
+  border: none;
+  padding: 1px;
+}
+
+.foto a:hover {
+  color: red;
+}
+
+.menu {
+  width: 588px;
+  height: 508px;
+  background-color: rgb(249, 249, 251);
+  margin-left: 32px;
+  margin-top: 4px;
+}
+
+.menus {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  margin-left: 16px;
+  margin-right: 10px;
+}
+.menus .img {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  padding-right: 9px;
+  align-items: center;
+  padding-top: 24px;
+  height: 160px;
+}
+
+.titel {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 23px;
+  margin-left: 16px;
+  padding-right: 15px;
+}
+.titel p {
+  width: 112px;
+  height: 90px;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+  margin-bottom: 10px;
+}
+.titel h5 {
+  font-family: "Exo 2";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18.9px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+
+.Hlobalkhim {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 23px;
+  margin-left: 26px;
+  padding-right: 20px;
+}
+.Hlobalkhim h3 {
+  width: 134px;
+  height: 14px;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.9px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+.Hlobalkhim p {
+  width: 141px;
+  height: 52px;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.contac {
+  margin-top: 4px;
+  padding-top: 23px;
+  margin-left: 16px;
+}
+.contac h4 {
+  width: 114px;
+  height: 33px;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.9px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+  margin-bottom: 12px;
+}
+.contac p {
+  width: 114px;
+  height: 33px;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+  margin-bottom: 10px;
+}
+.contac h6 {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  width: 117px;
+  height: 14px;
+}
+
+#menus {
+  border: none;
+}
+
+.deliverc {
+  margin-top: 300px;
+}
+.deliverc .delivery__container {
+  width: 1232px;
+  height: 880px;
+}
+
+.deliverys h3 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.offer {
+  margin-left: 49px;
+  display: flex;
+  margin-bottom: 24px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+}
+.offer img {
+  margin: 32px 56px 32px 96px;
+}
+
+.offer__text h2 {
+  margin-top: 32px;
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  width: 258px;
+  height: 20px;
+  margin-bottom: 34px;
+}
+.offer__text p {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  width: 568px;
+  height: 88px;
+}
+
+.companis__container {
+  width: 1212px;
+  height: 576px;
+  margin-top: 120px;
+}
+.companis__container .companic__text h4 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+
+.companic__logo {
+  display: flex;
+  text-align: center;
+  margin-left: 46px;
+  margin-top: 90px;
+}
+
+.rosatom {
+  height: 183px;
+  border-right: 1px solid rgb(215, 215, 221);
+  padding-right: 70px;
+}
+.rosatom img {
+  margin-bottom: 23px;
+}
+.rosatom h4 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: rgb(54, 55, 56);
+  margin-bottom: 14px;
+}
+.rosatom p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: rgb(107, 107, 108);
+}
+
+.gazprom {
+  height: 183px;
+  border-right: 1px solid rgb(215, 215, 221);
+  padding-right: 70px;
+  margin-left: 70px;
+}
+.gazprom img {
+  margin-bottom: 46px;
+}
+.gazprom h4 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: rgb(54, 55, 56);
+  margin-bottom: 14px;
+}
+.gazprom p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: rgb(107, 107, 108);
+}
+
+.rosneft {
+  height: 183px;
+  border-right: 1px solid rgb(215, 215, 221);
+  padding-right: 70px;
+  margin-left: 70px;
+}
+.rosneft img {
+  margin-bottom: 23px;
+}
+.rosneft h4 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: rgb(54, 55, 56);
+  margin-bottom: 14px;
+}
+.rosneft p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: rgb(107, 107, 108);
+}
+
+.rockocmoc {
+  width: 225px;
+  height: 174px;
+  margin-left: 70px;
+}
+.rockocmoc img {
+  margin-bottom: 23px;
+}
+.rockocmoc h4 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: rgb(54, 55, 56);
+  margin-bottom: 14px;
+}
+.rockocmoc p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: rgb(107, 107, 108);
+}
+
+.lukol {
+  height: 183px;
+  border-right: 1px solid rgb(215, 215, 221);
+  padding-right: 70px;
+}
+.lukol img {
+  margin-bottom: 68px;
+}
+.lukol h4 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: rgb(54, 55, 56);
+  margin-bottom: 14px;
+}
+.lukol p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: rgb(107, 107, 108);
+}
+
+.inter {
+  height: 183px;
+  border-right: 1px solid rgb(215, 215, 221);
+  padding-right: 70px;
+  margin-left: 70px;
+}
+.inter img {
+  margin-bottom: 30px;
+}
+.inter h4 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: rgb(54, 55, 56);
+  margin-bottom: 14px;
+}
+.inter p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: rgb(107, 107, 108);
+}
+
+.rostech {
+  height: 183px;
+  border-right: 1px solid rgb(215, 215, 221);
+  padding-right: 70px;
+  margin-left: 70px;
+}
+.rostech img {
+  margin-bottom: 23px;
+}
+.rostech h4 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: rgb(54, 55, 56);
+  margin-bottom: 14px;
+}
+.rostech p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: rgb(107, 107, 108);
+}
+
+.bank {
+  width: 225px;
+  height: 174px;
+  margin-left: 70px;
+}
+.bank img {
+  margin-bottom: 70px;
+}
+.bank h4 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: rgb(54, 55, 56);
+  margin-bottom: 14px;
+}
+.bank p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: rgb(107, 107, 108);
+}
+
+.kompani__container {
+  width: 1240px;
+  height: 799px;
+  margin-top: 130px;
+}
+.kompani__container .section h4 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.anton__kompani {
+  display: flex;
+  gap: 30px;
+}
+
+.section__anton {
+  width: 605px;
+  height: 210px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  border-left: 50px solid rgb(11, 117, 114);
+  margin-top: 24px;
+}
+.section__anton .anton {
+  display: flex;
+  padding-top: 32px;
+  margin-left: 32px;
+}
+.section__anton .anton__text {
+  margin-left: 40px;
+}
+.section__anton .anton__text h5 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.section__anton .anton__text p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  border-bottom: 3px solid rgb(255, 206, 80);
+  padding-bottom: 20px;
+}
+.section__anton .anton__text img {
+  margin-right: 20px;
+  margin-top: 32px;
+}
+
+.contacti__container {
+  width: 1240px;
+  height: 504px;
+  margin-top: 100px;
+}
+.contacti__container .telifon h3 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  margin-bottom: 94px;
+}
+
+.tel__block {
+  display: flex;
+}
+
+.telifons {
+  width: 248px;
+  height: 304px;
+  margin-top: 22px;
+}
+.telifons .pichers {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 44px;
+}
+.telifons .pichers .nomer p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+  margin-bottom: 8px;
+}
+
+.pichers h5 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+
+.dalne {
+  background-color: rgb(249, 249, 251);
+  margin-left: 250px;
+  border-radius: 5px;
+}
+.dalne .polnic {
+  display: flex;
+  gap: 56px;
+  margin-left: 48px;
+  margin-top: 40px;
+  margin-right: 72px;
+  border-bottom: 1px solid rgb(233, 234, 242);
+  padding-bottom: 16px;
+}
+.dalne .polnic p {
+  width: 175px;
+  height: 15px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+}
+.dalne .polnic h3 {
+  font-family: Exo 2;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+
+.ihn {
+  display: flex;
+  gap: 56px;
+  margin-left: 48px;
+  margin-top: 40px;
+  margin-right: 72px;
+  border-bottom: 1px solid rgb(233, 234, 242);
+  padding-bottom: 16px;
+}
+.ihn p {
+  width: 175px;
+  height: 15px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+}
+.ihn h3 {
+  font-family: Exo 2;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+
+.kpn {
+  display: flex;
+  gap: 56px;
+  margin-left: 48px;
+  margin-top: 40px;
+  margin-right: 72px;
+  border-bottom: 1px solid rgb(233, 234, 242);
+  padding-bottom: 16px;
+}
+.kpn p {
+  width: 175px;
+  height: 15px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+}
+.kpn h3 {
+  font-family: Exo 2;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+
+.ogrn {
+  display: flex;
+  gap: 56px;
+  margin-left: 48px;
+  margin-top: 40px;
+  margin-right: 72px;
+  border-bottom: 1px solid rgb(233, 234, 242);
+  padding-bottom: 16px;
+}
+.ogrn p {
+  width: 175px;
+  height: 15px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+}
+.ogrn h3 {
+  font-family: Exo 2;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+
+.aders {
+  display: flex;
+  gap: 56px;
+  margin-left: 48px;
+  margin-top: 40px;
+  margin-right: 72px;
+  border-bottom: 1px solid rgb(233, 234, 242);
+  padding-bottom: 16px;
+}
+.aders p {
+  width: 175px;
+  height: 15px;
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+}
+.aders h3 {
+  font-family: Exo 2;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+
+.yutub__container {
+  margin-top: 140px;
+  margin-bottom: 160px;
+}
+
+.footer {
+  height: 365px;
+  background-color: rgb(11, 117, 114);
+  margin-bottom: 400px;
+}
+.footer .footer__container {
+  padding-left: 95px;
+  padding-right: 100px;
+  padding-top: 59px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.model {
+  width: 350px;
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+.model .catalog a {
+  text-decoration: none;
+}
+.model .catalog p {
+  margin-bottom: 25px;
+  font-family: "Exo 2";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  letter-spacing: 0.16em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+.diler a {
+  text-decoration: none;
+}
+.diler p {
+  margin-bottom: 15px;
+  font-family: "Exo 2";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  letter-spacing: 0.16em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+.facebook a {
+  margin-right: 15px;
+  margin-bottom: 32px;
+}
+.facebook h4 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-family: "Exo 2";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+.facebook button {
+  width: 271px;
+  height: 42px;
+  padding: 7px 11px 8px 11px;
+  background-color: rgb(255, 150, 25);
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.facebook span {
+  margin-left: 14px;
+}
+
+button:hover {
+  background-color: rgb(113, 126, 201);
+}
+
+.footer__text {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+  font-family: "Exo 2";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.16em;
+  text-align: center;
+  color: rgb(245, 243, 243);
+}/*# sourceMappingURL=stle.css.map */
